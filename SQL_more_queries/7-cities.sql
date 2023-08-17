@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 -- use the database hbtn_0d_usa for below tables name states
 USE hbtn_0d_usa;
 
--- creating cities table and use IF NOT EXISTS for preventing to fail when if exist
+-- creating cities table and use IF NOT EXISTS for preventing to fail when if exists
 -- no need of use unique because of primary key is unique 
 CREATE TABLE IF NOT EXISTS cities(
     id INT NOT NULL  AUTO_INCREMENT PRIMARY KEY,
